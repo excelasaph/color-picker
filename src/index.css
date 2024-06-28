@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.color-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-box {
+  width: 25rem;
+  height: 20rem;
+  background-color: #fff;
+}
+
+.buttons {
+  width: 25rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  min-width: 7rem;
+  height: 3rem;
+  margin: 0;
+  font-size: 1.3rem;
+  border-radius: 0.3rem;
+  border: 0.1rem #00000027 solid;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #87878731;
+}
+
